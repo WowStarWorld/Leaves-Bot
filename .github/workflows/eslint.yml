@@ -10,5 +10,5 @@ jobs:
             - uses: actions/setup-node@v1
               with:
                   node-version: 19
-            - run: npm ci
+            - run: npm i
             - uses: eslint/github-action@v0
